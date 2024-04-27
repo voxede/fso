@@ -1,6 +1,8 @@
+import Part from './Part'
+
 const Content = ({part, exercises}) => {
     return (
-        <p>{part} {exercises}</p>
+        <Part part={part} exercises={exercises} />
     )
 }
 
